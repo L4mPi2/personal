@@ -1,5 +1,5 @@
 /**
-*   Glitche (HTML)
+*   Resume (HTML)
 *   Copyright © Resume by L4mP. All Rights Reserved.
 **/
 
