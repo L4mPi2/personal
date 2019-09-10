@@ -1,6 +1,6 @@
 /**
 *   Glitche (HTML)
-*   Copyright © Glitche by beshleyua. All Rights Reserved.
+*   Copyright © Resume by L4mP. All Rights Reserved.
 **/
 
 $(function () {
