@@ -240,7 +240,7 @@ header .head-top .top-menu ul li.active .btn {
   font-size: 13px;
   color: #141414;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -272,7 +272,7 @@ header .head-top .top-menu ul li.active .btn {
   color: #141414;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
   margin: 10px 0 5px 0;
 }
 
@@ -808,7 +808,7 @@ header .head-top .top-menu ul li.active .btn {
   font-size: 11px;
   color: #363636;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
   box-shadow: inset 0 -6px 0px #ede574;
   -moz-box-shadow: inset 0 -6px 0px #ede574;
   -webkit-box-shadow: inset 0 -6px 0px #ede574;
@@ -996,7 +996,7 @@ footer .copy {
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
   margin: 0 0 15px 0;
   line-height: normal;
 }
