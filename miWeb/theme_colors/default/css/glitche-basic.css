@@ -205,7 +205,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   margin-bottom: 30px;
   color: #141414;
@@ -323,7 +323,7 @@ textarea,
 button {
   display: block;
   background: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   height: 60px;
   width: 100%;
@@ -376,7 +376,7 @@ label,
 legend {
   display: block;
   padding-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
 }
 
@@ -479,7 +479,7 @@ li {
 code {
   background: #dddddd;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 20px 0;
   padding: 10px 20px;
 }
@@ -574,7 +574,7 @@ td {
 }
 
 .text-bold {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 .text-italic {
@@ -583,7 +583,7 @@ td {
 
 /* 14. Blockquote */
 blockquote {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Animations */

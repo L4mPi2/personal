@@ -267,10 +267,10 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 .section.started .started-content .h-title {
-  font-size: 68px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
   color: #141414;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin: 10px 0 5px 0;
@@ -782,7 +782,7 @@ header .head-top .top-menu ul li.active .btn {
   display: block;
   color: #363636;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -994,7 +994,7 @@ footer .copy {
   display: block;
   color: #363636;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin: 0 0 15px 0;
