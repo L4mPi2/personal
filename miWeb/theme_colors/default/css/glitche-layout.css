@@ -1067,3 +1067,16 @@ canvas {
   background-size: cover;
   background-position: 100%;
 }
+.can {
+  width: 25px;
+
+  height: 15px;
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  position: relative;
+
+  margin-left: 8px;
+}
