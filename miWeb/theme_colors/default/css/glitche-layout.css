@@ -273,7 +273,7 @@ header .head-top .top-menu ul li.active .btn {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 25px 0;
 }
 
 @media (max-width: 1060px) {
@@ -493,9 +493,9 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 .resume-items .resume-item .name {
-  font-weight: 500;
+  font-weight: 400;
   color: #141414;
-  margin: 0 0 15px 0;
+  margin: 0 0 25px 0;
 }
 
 .resume-items .resume-item p {
