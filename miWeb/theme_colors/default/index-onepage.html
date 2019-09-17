@@ -4,7 +4,7 @@
 	
 	<!-- Basic -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>L4mP - Web Services</title>
+	<title>Guillermo Risoli</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	
@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="css/ionicons.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
 	<link rel="stylesheet" href="css/animate.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -59,7 +61,7 @@
 				<a href="#" class="menu-btn"><span></span></a>
 				<div class="top-menu">
 				  <ul>
-					<li><a href="index.html" class="lnk">Home</a></li>
+					<li><a href="index-onepage.html" class="lnk">Home</a></li>
 					<li><a href="resume.html" class="lnk">Resume</a></li>
 					<!-- <li><a href="portfolio.html" class="lnk">Portfolio</a></li>
 					<li><a href="blog.html" class="lnk">Blog</a></li> -->
@@ -86,9 +88,20 @@
 						<div class="started-content">
 							<div class="h-title glitch-effect" data-text="I'm Guillermo Risoli">I'm Guillermo Risoli</div>
 							<div class="h-subtitle typing-subtitle">
-								<p>AUTOMATION ENGINEER</p>
-								<p>Based in VANCOUVER, BC</p>
-							</div>
+									<br /><br /><br />
+									<p>Web Automation Engineer</p>
+									<p>AWS DevOps</p>
+									<p>Web Developer</p>
+									<p>Quality Engineer</p>
+									<p>Team Leader</p>
+									<p>
+									  Based in VANCOUVER<img
+										src="images/favicons/canada-flag-icon-256.png"
+										class="can"
+										alt="Canada"
+									  />
+									</p>
+								  </div>
 							<span class="typed-subtitle"></span>
 						</div>
 					</div>
@@ -104,8 +117,8 @@
 													<div class="vertical-center">
 														<div class="started-content">
 															<div class="h-title glitch-effect" data-text="Resume">RESUME</div>
-															<div class="h-subtitle typing-bread">
-																<p><a href="resume.html">Resume</a> / <a href="resume.html">Resume</a></p>
+															<div class="h-subtitle typing-bread glitch-effect">
+																<p><a href="index-onepage.html">Home</a> / <a href="resume.html">Resume</a></p>
 															</div>
 															<span class="typed-bread"></span>
 														</div>
@@ -137,12 +150,13 @@
 									<li><strong>Job:</strong> Web Developer</li>
 									<li><strong>Citizenship:</strong> Argentina</li>
 									<li><strong>Residence: </strong> Canada</li>
-									<li><strong>E-mail:</strong> guille.risoli@gmail.com</li>
+									<li><strong>Email:</strong> guille.risoli@gmail.com</li>
 								</ul>
 							</div>
 							<div class="bts" style="
+							margin-top: 100px;
 							text-align: center;
-						"><a href="#" class="btn fill" data-text="Download CV"  >Download CV</a></div>
+						"><a href="#" class="btn fill glitch-effect-white" data-text="Download CV">Download CV</a></div>
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -214,7 +228,7 @@
 			<div class="section skills">
 				<div class="content">
 					<div class="title">
-						<div class="title_inner">My Skills</div>
+						<div class="title_inner glitch-effect" data-text="My Skills">My Skills</div>
 					</div>
 					<div class="skills">
 						<ul>
@@ -259,7 +273,7 @@
 			<div class="section service">
 				<div class="content">
 					<div class="title">
-						<div class="title_inner">My Services</div>
+						<div class="title_inner glitch-effect"data-text="My Services">My Services</div>
 					</div>
 					<div class="service-items">
 						<div class="service-item">
@@ -297,7 +311,7 @@
 			</div>
 			
 			<!-- Clients -->
-			<div class="section clients">
+			<!-- <div class="section clients">
 				<div class="content">
 					<div class="title">
 						<div class="title_inner">Clients</div>
@@ -390,10 +404,10 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- Works -->
-			<div class="section works" id="section-works">
+			<!-- <div class="section works" id="section-works">
 				<div class="content">
 					<div class="title">
 						<div class="title_inner">Recent Works</div>
@@ -718,10 +732,10 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- Blog -->
-			<div class="section blog" id="section-blog">
+			<!-- <div class="section blog" id="section-blog">
 				<div class="content">
 					<div class="title">
 						<div class="title_inner">Latest Posts</div>
@@ -892,13 +906,13 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- Contact me Info -->
 			<div class="section contacts" id="section-contacts">
 				<div class="content">
 					<div class="title">
-						<div class="title_inner">Contact me</div>
+						<div class="title_inner glitch-effect" data-text="Contact me">Contact me</div>
 					</div>
 					<div class="service-items">
 						<div class="service-item">
@@ -934,7 +948,8 @@
 							<div class="group-val ct-gr">
 								<textarea name="message" placeholder="Message"></textarea>
 							</div>
-							<a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a>
+							<div style="text-align:center;margin-top:100px;">
+							<a href="#" class="btn fill glitch-effect-white" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a></div>
 						</form>
 						<div class="alert-success">
 							<p>
@@ -950,22 +965,21 @@
 		<!-- Footer -->
 		<footer>
 				<div class="soc">
-				  <a target="_blank" href="https://dribbble.com/"
-					><span class="ion ion-social-dribbble"></span
+				  <a target="_blank" href="facebook.com/guillerisoli"
+					><span class="ion ion-social-facebook"></span
 				  ></a>
-				  <a target="_blank" href="https://twitter.com/"
-					><span class="ion ion-social-twitter"></span
+				  <a target="_blank" href="https://www.linkedin.com/in/guillermorisoli/"
+					><span class="ion ion-social-linkedin"></span
 				  ></a>
-				  <a target="_blank" href="https://github.com/"
+				  <a target="_blank" href="https://github.com/L4mPi2"
 					><span class="ion ion-social-github"></span
 				  ></a>
-				  <a target="_blank" href="https://www.instagram.com/"
-					><span class="ion ion-social-instagram-outline"></span
+				  <a target="_blank" href="https://www.instagram.com/guillermo.Risoli/"
+					><span class="ion ion-social-instagram"></span
 				  ></a>
 				</div>
 				<div class="copy glitch-effect" data-text="Designed by L4mP">
-				  Designed by L4mP
-				  <img src="images/favicons/arg.png" class="can" alt="Argentina" />
+				  Home Designed and Made by myself &#128521;<img src="images/favicons/arg.png" class="can" alt="Argentina" />
 				</div>
 				<div class="clr"></div>
 			  </footer>
