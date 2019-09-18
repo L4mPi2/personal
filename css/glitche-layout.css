@@ -835,8 +835,12 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 .section.contacts .alert-success p {
-  margin: 60px 0 30px 0;
-  font-size: 15px;
+  padding: 15px;
+  margin: 100px 0 30px 0;
+  font-size: 20px;
+  text-align: center;
+  border: #0c82a6;
+  border-style: solid;
 }
 
 /* 11. Blog */
